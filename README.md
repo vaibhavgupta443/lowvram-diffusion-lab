@@ -1,5 +1,7 @@
 # Running modern image models on a 4 GB GPU and 7.4 GB of RAM
 
+![type: research](https://img.shields.io/badge/type-research-6f42c1) ![focus: inference optimisation](https://img.shields.io/badge/focus-inference%20optimisation-blue) ![hardware: 4 GB VRAM](https://img.shields.io/badge/hardware-4%20GB%20VRAM-lightgrey) ![licence: MIT](https://img.shields.io/badge/licence-MIT-green)
+
 Engineering notes, measurements and small tools from getting current diffusion models (Z-Image, FLUX.2 Klein 4B/9B, FLUX.3 Klein, SDXL) to **generate and edit images in roughly 8-30 seconds on a laptop that officially cannot run them**.
 
 **Machine:** Ryzen 7 4800H, RTX 3050 laptop (4 GB VRAM, Ampere), 7.4 GB RAM, Windows 11. All numbers are measured on this one machine unless a line says otherwise.
